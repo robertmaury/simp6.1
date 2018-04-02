@@ -1,4 +1,4 @@
-moduledir 'src/puppet/modules'
+#moduledir 'src/puppet/modules'
 
 mod 'bfraser-grafana',
   :git => 'https://github.com/simp/puppet-grafana',
