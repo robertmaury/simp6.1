@@ -8,3 +8,4 @@
 this_is_an_example_key: 'that does nothing'
 simp_options::puppet::ca: 'puppet.simp.local'
 simp_options::puppet::server: 'puppet.simp.local'
+simp_options::dns::servers: '192.168.1.1'
