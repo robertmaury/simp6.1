@@ -1,5 +1,0 @@
-simp_options::puppet::ca: 'puppet.simp.local'
-simp_options::puppet::server: 'puppet.simp.local'
-simp_options::dns::servers:
-  - '127.0.0.1'
-  - '192.168.1.1'
