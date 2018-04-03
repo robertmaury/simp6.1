@@ -6,7 +6,7 @@
 version: 5
 defaults:
   datadir: data
-  datahash: yaml_data
+  data_hash: yaml_data
 hierarchy:
   - name: "Puppet"
     paths:
