@@ -1,5 +1,3 @@
-moduledir 'src/puppet/modules'
-
 mod 'camptocamp-kmod',
   :git => 'https://github.com/simp/puppet-kmod.git',
   :tag => '2.2.0'
