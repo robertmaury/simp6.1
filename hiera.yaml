@@ -5,15 +5,15 @@
 # leave the simp* entries in place at the bottom of the list
 version: 5
 defaults:
-    datadir: data
-    datahash: yaml_data
+  datadir: data
+  datahash: yaml_data
 hierarchy:
   - name: "Puppet"
     paths:
-  - 'hosts/%{facts.fqdn}.yaml'
-  - '%{facts.os.family}.yaml'
-  - '%{facts.os.name}/%{facts.os.release.major}.yaml'
-  - 'default.yaml'
+    - 'hosts/%{facts.fqdn}.yaml'
+    - '%{facts.os.family}.yaml'
+    - '%{facts.os.name}/%{facts.os.release.major}.yaml'
+    - 'default.yaml'
   - name: "SIMP"
     paths:
     - 'compliance_profiles/%{::compliance_profile}.yaml'
